@@ -1,7 +1,4 @@
 <?php 
-    include "components/info.component.php";
-    include "components/moves.component.php";
-    
     function movesSection($arr) {
         $movesNum = 0;
 

@@ -15,6 +15,9 @@
         include "helpers/getEvolutionName.php";
         include "helpers/getSpecieId.php";
 
+        include "components/info.component.php";
+        include "components/moves.component.php";
+
         include "sections/description.component.php";
         include "sections/evolutions.component.php";
 
