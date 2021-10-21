@@ -9,14 +9,15 @@
 </head>
 <body>
     <?php
+        include "components/info.component.php";
+        include "components/moves.component.php";
+        include "components/error.component.php";
+
         include "helpers/test_input.php";
         include "helpers/getData.php";
         include "helpers/getMultiData.php";
         include "helpers/getEvolutionName.php";
         include "helpers/getSpecieId.php";
-
-        include "components/info.component.php";
-        include "components/moves.component.php";
 
         include "sections/description.component.php";
         include "sections/evolutions.component.php";
